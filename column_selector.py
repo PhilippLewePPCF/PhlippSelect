@@ -8,26 +8,26 @@ COLUMN_DATABASE = {
                 {
                     "name": "HisTrap HP (GE/Cytiva)",
                     "binding_capacity": "40 mg/mL",
-                    "features": "Standard für die meisten His-Tag Proteine, Ni-Sepharose High Performance",
-                    "best_for": "Routine Reinigungen, gute Balance zwischen Reinheit und Kapazität"
+                    "features": "Standard for most His-Tag proteins, Ni-Sepharose High Performance",
+                    "best_for": "Routine purifications, good balance between purity and capacity"
                 },
                 {
                     "name": "HisTrap FF (GE/Cytiva)",
                     "binding_capacity": "40 mg/mL",
-                    "features": "Fast Flow, größere Partikel für schnellere Durchflussraten",
-                    "best_for": "Große Volumina, weniger druckempfindliche Systeme"
+                    "features": "Fast Flow, larger particles for faster flow rates",
+                    "best_for": "Large volumes, less pressure-sensitive systems"
                 },
                 {
                     "name": "TALON Crude (Takara)",
                     "binding_capacity": "10-15 mg/mL",
-                    "features": "Co2+ statt Ni2+, geringere unspezifische Bindung",
-                    "best_for": "Rohextrakte mit vielen kontaminierenden Proteinen"
+                    "features": "Co2+ instead of Ni2+, lower non-specific binding",
+                    "best_for": "Crude extracts with many contaminating proteins"
                 },
                 {
                     "name": "Ni-NTA Superflow (Qiagen)",
                     "binding_capacity": "50 mg/mL",
-                    "features": "Sehr hohe Kapazität, NTA-Chelatierung",
-                    "best_for": "Maximale Ausbeute bei begrenztem Probenmaterial"
+                    "features": "Very high capacity, NTA chelation",
+                    "best_for": "Maximum yield with limited sample material"
                 }
             ]
         },
@@ -36,14 +36,14 @@ COLUMN_DATABASE = {
                 {
                     "name": "GSTrap HP (GE/Cytiva)",
                     "binding_capacity": "10 mg GST/mL",
-                    "features": "Glutathione Sepharose 4B, Standard für GST-Fusion",
-                    "best_for": "Standard GST-Fusionsproteine"
+                    "features": "Glutathione Sepharose 4B, standard for GST-fusion",
+                    "best_for": "Standard GST-fusion proteins"
                 },
                 {
                     "name": "GST SpinTrap (GE/Cytiva)",
                     "binding_capacity": "10 mg/mL",
-                    "features": "Spin-Format für kleine Volumina",
-                    "best_for": "Schnelle Reinigung kleiner Mengen, kein FPLC nötig"
+                    "features": "Spin format for small volumes",
+                    "best_for": "Fast purification of small amounts, no FPLC needed"
                 }
             ]
         },
@@ -52,14 +52,14 @@ COLUMN_DATABASE = {
                 {
                     "name": "StrepTrap HP (GE/Cytiva)",
                     "binding_capacity": "600 μg/mL",
-                    "features": "Strep-Tactin Sepharose, milde Elution",
+                    "features": "Strep-Tactin Sepharose, mild elution",
                     "best_for": "Standard Strep-Tag (WSHPQFEK)"
                 },
                 {
                     "name": "Strep-Tactin XT 4Flow (IBA)",
                     "binding_capacity": "2-3 mg/mL",
-                    "features": "Höhere Kapazität, für Twin-Strep-Tag optimiert",
-                    "best_for": "Twin-Strep-Tag, höhere Ausbeuten"
+                    "features": "Higher capacity, optimized for Twin-Strep-Tag",
+                    "best_for": "Twin-Strep-Tag, higher yields"
                 }
             ]
         },
@@ -68,14 +68,14 @@ COLUMN_DATABASE = {
                 {
                     "name": "Strep-Tactin XT (IBA)",
                     "binding_capacity": "2-3 mg/mL",
-                    "features": "Optimiert für Strep-Tag II (WSHPQFEK), milde Elution mit Biotin",
-                    "best_for": "Standard für Strep-Tag II, sehr sanfte Bedingungen"
+                    "features": "Optimized for Strep-Tag II (WSHPQFEK), mild elution with biotin",
+                    "best_for": "Standard for Strep-Tag II, very gentle conditions"
                 },
                 {
                     "name": "MagStrep Type3 XT (IBA)",
                     "binding_capacity": "~1 mg/mL",
-                    "features": "Magnetische Beads, kein Säulenlauf nötig",
-                    "best_for": "Kleine Volumina, Hochdurchsatz-Screening"
+                    "features": "Magnetic beads, no column run needed",
+                    "best_for": "Small volumes, high-throughput screening"
                 }
             ]
         },
@@ -84,14 +84,14 @@ COLUMN_DATABASE = {
                 {
                     "name": "Anti-FLAG M2 Affinity Gel (Sigma)",
                     "binding_capacity": ">600 μg/mL",
-                    "features": "Monoklonaler Anti-FLAG Antikörper, milde Elution mit FLAG-Peptid",
-                    "best_for": "Standard FLAG-Tag Reinigung"
+                    "features": "Monoclonal anti-FLAG antibody, mild elution with FLAG peptide",
+                    "best_for": "Standard FLAG-Tag purification"
                 },
                 {
                     "name": "Anti-FLAG M1 Agarose (Sigma)",
                     "binding_capacity": "~400 μg/mL",
-                    "features": "Ca2+-abhängige Bindung, EDTA-Elution möglich",
-                    "best_for": "Wenn Peptid-Elution vermieden werden soll"
+                    "features": "Ca2+-dependent binding, EDTA elution possible",
+                    "best_for": "When peptide elution should be avoided"
                 }
             ]
         },
@@ -100,14 +100,14 @@ COLUMN_DATABASE = {
                 {
                     "name": "c-Myc Agarose (Thermo/Pierce)",
                     "binding_capacity": "~200 μg/mL",
-                    "features": "Anti-c-Myc Antikörper gekoppelt",
-                    "best_for": "Standard c-Myc (EQKLISEEDL) Reinigung"
+                    "features": "Anti-c-Myc antibody coupled",
+                    "best_for": "Standard c-Myc (EQKLISEEDL) purification"
                 },
                 {
                     "name": "c-Myc Magnetic Beads (Thermo)",
                     "binding_capacity": "Variable",
-                    "features": "Magnetische Beads für schnelle Isolation",
-                    "best_for": "Kleine Volumina, Co-IP Experimente"
+                    "features": "Magnetic beads for fast isolation",
+                    "best_for": "Small volumes, Co-IP experiments"
                 }
             ]
         },
@@ -116,139 +116,139 @@ COLUMN_DATABASE = {
                 "IgG1 (human)": [
                     {
                         "name": "Protein A HP (GE/Cytiva)",
-                        "binding": "Sehr stark",
-                        "features": "Höchste Affinität für human IgG1",
-                        "best_for": "Standard-Wahl für human IgG1"
+                        "binding": "Very strong",
+                        "features": "Highest affinity for human IgG1",
+                        "best_for": "Standard choice for human IgG1"
                     },
                     {
                         "name": "Protein G HP (GE/Cytiva)",
-                        "binding": "Stark",
-                        "features": "Breite Spezies-Reaktivität",
-                        "best_for": "Alternative zu Protein A"
+                        "binding": "Strong",
+                        "features": "Broad species reactivity",
+                        "best_for": "Alternative to Protein A"
                     }
                 ],
                 "IgG2 (human)": [
                     {
                         "name": "Protein A HP (GE/Cytiva)",
-                        "binding": "Mittel-stark",
-                        "features": "Schwächere Bindung als IgG1, höhere Elutionsvolumen nötig",
-                        "best_for": "Funktioniert, aber nicht optimal"
+                        "binding": "Medium-strong",
+                        "features": "Weaker binding than IgG1, higher elution volumes needed",
+                        "best_for": "Works, but not optimal"
                     },
                     {
                         "name": "Protein G HP (GE/Cytiva)",
-                        "binding": "Stark",
-                        "features": "Bessere Bindung als Protein A für IgG2",
-                        "best_for": "Bevorzugt für human IgG2"
+                        "binding": "Strong",
+                        "features": "Better binding than Protein A for IgG2",
+                        "best_for": "Preferred for human IgG2"
                     },
                     {
                         "name": "Protein A/G (Thermo)",
-                        "binding": "Stark",
-                        "features": "Kombiniert beide Bindungsdomänen",
-                        "best_for": "Wenn IgG-Subtyp gemischt oder unbekannt"
+                        "binding": "Strong",
+                        "features": "Combines both binding domains",
+                        "best_for": "When IgG subtype is mixed or unknown"
                     }
                 ],
                 "IgG3 (human)": [
                     {
                         "name": "Protein G HP (GE/Cytiva)",
-                        "binding": "Sehr stark",
-                        "features": "Beste Wahl für IgG3",
-                        "best_for": "Standard für IgG3"
+                        "binding": "Very strong",
+                        "features": "Best choice for IgG3",
+                        "best_for": "Standard for IgG3"
                     },
                     {
                         "name": "Protein A HP (GE/Cytiva)",
-                        "binding": "Schwach",
-                        "features": "Nicht empfohlen für IgG3",
-                        "best_for": "Vermeiden bei IgG3"
+                        "binding": "Weak",
+                        "features": "Not recommended for IgG3",
+                        "best_for": "Avoid for IgG3"
                     }
                 ],
                 "IgG4 (human)": [
                     {
                         "name": "Protein A HP (GE/Cytiva)",
-                        "binding": "Stark",
-                        "features": "Gute Bindung",
-                        "best_for": "Standard-Wahl"
+                        "binding": "Strong",
+                        "features": "Good binding",
+                        "best_for": "Standard choice"
                     },
                     {
                         "name": "Protein G HP (GE/Cytiva)",
-                        "binding": "Stark",
-                        "features": "Ebenfalls gute Bindung",
-                        "best_for": "Alternative zu Protein A"
+                        "binding": "Strong",
+                        "features": "Also good binding",
+                        "best_for": "Alternative to Protein A"
                     }
                 ],
                 "Mouse IgG1": [
                     {
                         "name": "Protein G HP (GE/Cytiva)",
-                        "binding": "Sehr stark",
-                        "features": "Beste Bindung für Mouse IgG1",
-                        "best_for": "Standard für Mouse IgG1"
+                        "binding": "Very strong",
+                        "features": "Best binding for Mouse IgG1",
+                        "best_for": "Standard for Mouse IgG1"
                     },
                     {
                         "name": "Protein A HP (GE/Cytiva)",
-                        "binding": "Mittel",
-                        "features": "Funktioniert, aber schwächer",
-                        "best_for": "Wenn Protein G nicht verfügbar"
+                        "binding": "Medium",
+                        "features": "Works, but weaker",
+                        "best_for": "If Protein G not available"
                     }
                 ],
                 "Mouse IgG2a": [
                     {
                         "name": "Protein A HP (GE/Cytiva)",
-                        "binding": "Sehr stark",
-                        "features": "Exzellente Bindung",
-                        "best_for": "Standard-Wahl"
+                        "binding": "Very strong",
+                        "features": "Excellent binding",
+                        "best_for": "Standard choice"
                     },
                     {
                         "name": "Protein G HP (GE/Cytiva)",
-                        "binding": "Stark",
-                        "features": "Ebenfalls gut",
+                        "binding": "Strong",
+                        "features": "Also good",
                         "best_for": "Alternative"
                     }
                 ],
                 "Mouse IgG2b": [
                     {
                         "name": "Protein A HP (GE/Cytiva)",
-                        "binding": "Stark",
-                        "features": "Gute Bindung",
-                        "best_for": "Standard-Wahl"
+                        "binding": "Strong",
+                        "features": "Good binding",
+                        "best_for": "Standard choice"
                     },
                     {
                         "name": "Protein G HP (GE/Cytiva)",
-                        "binding": "Sehr stark",
-                        "features": "Beste Bindung",
-                        "best_for": "Bevorzugt für Mouse IgG2b"
+                        "binding": "Very strong",
+                        "features": "Best binding",
+                        "best_for": "Preferred for Mouse IgG2b"
                     }
                 ],
                 "Mouse IgG3": [
                     {
                         "name": "Protein A HP (GE/Cytiva)",
-                        "binding": "Keine/sehr schwach",
-                        "features": "NICHT empfohlen",
-                        "best_for": "Vermeiden!"
+                        "binding": "None/very weak",
+                        "features": "NOT recommended",
+                        "best_for": "Avoid!"
                     },
                     {
                         "name": "Protein G HP (GE/Cytiva)",
-                        "binding": "Schwach",
+                        "binding": "Weak",
                         "features": "Suboptimal",
-                        "best_for": "Nur wenn keine Alternative"
+                        "best_for": "Only if no alternative"
                     },
                     {
                         "name": "Anti-Mouse IgG Agarose",
-                        "binding": "Stark",
-                        "features": "Spezifisch für Mouse IgG",
-                        "best_for": "BESTE Wahl für Mouse IgG3"
+                        "binding": "Strong",
+                        "features": "Specific for Mouse IgG",
+                        "best_for": "BEST choice for Mouse IgG3"
                     }
                 ],
                 "Rat IgG": [
                     {
                         "name": "Protein G HP (GE/Cytiva)",
-                        "binding": "Stark",
-                        "features": "Gute Bindung der meisten Rat IgG",
-                        "best_for": "Standard-Wahl"
+                        "binding": "Strong",
+                        "features": "Good binding for most Rat IgG",
+                        "best_for": "Standard choice"
                     },
                     {
                         "name": "Protein A HP (GE/Cytiva)",
-                        "binding": "Schwach-mittel",
-                        "features": "Subtyp-abhängig",
-                        "best_for": "Nicht erste Wahl"
+                        "binding": "Weak-medium",
+                        "features": "Subtype-dependent",
+                        "best_for": "Not first choice"
                     }
                 ]
             }
@@ -259,27 +259,27 @@ COLUMN_DATABASE = {
             {
                 "name": "Superdex 200 Increase 10/300 GL",
                 "separation_range": "10 - 600 kDa",
-                "best_for": "Standard für die meisten Proteine, gute Auflösung"
+                "best_for": "Standard for most proteins, good resolution"
             },
             {
                 "name": "Superdex 75 Increase 10/300 GL",
                 "separation_range": "3 - 70 kDa",
-                "best_for": "Kleinere Proteine, Peptide, bessere Auflösung im unteren MW-Bereich"
+                "best_for": "Smaller proteins, peptides, better resolution in lower MW range"
             },
             {
                 "name": "Superose 6 Increase 10/300 GL",
                 "separation_range": "5 - 5000 kDa",
-                "best_for": "Große Proteinkomplexe, Virus-ähnliche Partikel"
+                "best_for": "Large protein complexes, virus-like particles"
             },
             {
                 "name": "Superdex 200 Increase 3.2/300",
                 "separation_range": "10 - 600 kDa",
-                "best_for": "Analytische Läufe, geringe Probenmengen"
+                "best_for": "Analytical runs, small sample amounts"
             },
             {
                 "name": "HiLoad Superdex 200 pg 16/600",
                 "separation_range": "10 - 600 kDa",
-                "best_for": "Präparative Läufe, größere Volumina, höhere Auflösung"
+                "best_for": "Preparative runs, larger volumes, higher resolution"
             }
         ]
     }
@@ -289,7 +289,7 @@ COLUMN_DATABASE = {
 st.set_page_config(page_title="Chromatography Column Selector", page_icon="🧪", layout="wide")
 
 st.title("🧪 Chromatography Column Selector")
-st.markdown("### Ein Tool zur optimalen Säulenauswahl für euer Labor")
+st.markdown("### A tool for optimal column selection in your lab")
 
 # Session State initialisieren
 if 'selections' not in st.session_state:
@@ -298,8 +298,8 @@ if 'selections' not in st.session_state:
 # Hauptauswahl: Affinity oder Size Exclusion
 st.markdown("---")
 chrom_type = st.selectbox(
-    "**Schritt 1: Wähle die Chromatographie-Art**",
-    ["--- Bitte wählen ---", "Affinity", "Size Exclusion"],
+    "**Step 1: Choose chromatography type**",
+    ["--- Please select ---", "Affinity", "Size Exclusion"],
     key="chrom_type"
 )
 
@@ -308,46 +308,46 @@ if chrom_type == "Affinity":
     
     # Tag-Auswahl
     tag_type = st.selectbox(
-        "**Schritt 2: Wähle deinen Affinity Tag**",
-        ["--- Bitte wählen ---", "HisTag", "GSTag", "Strep-Tag", "Strep-Tag II", 
+        "**Step 2: Choose your affinity tag**",
+        ["--- Please select ---", "HisTag", "GSTag", "Strep-Tag", "Strep-Tag II", 
          "FLAG-Tag", "MYC-Tag", "Antibody"],
         key="tag_type"
     )
     
-    if tag_type != "--- Bitte wählen ---":
+    if tag_type != "--- Please select ---":
         st.markdown("---")
         
         # Spezialfall: Antibody mit Subtypen
         if tag_type == "Antibody":
-            st.info("⚠️ **Wichtig:** Die Wahl der richtigen Säule ist stark vom IgG-Subtyp abhängig!")
+            st.info("⚠️ **Important:** The choice of the right column is highly dependent on the IgG subtype!")
             
             antibody_subtype = st.selectbox(
-                "**Schritt 3: Wähle den Antikörper-Subtyp**",
-                ["--- Bitte wählen ---"] + list(COLUMN_DATABASE["Affinity"]["Antibody"]["subtypes"].keys()),
+                "**Step 3: Choose antibody subtype**",
+                ["--- Please select ---"] + list(COLUMN_DATABASE["Affinity"]["Antibody"]["subtypes"].keys()),
                 key="antibody_subtype"
             )
             
-            if antibody_subtype != "--- Bitte wählen ---":
+            if antibody_subtype != "--- Please select ---":
                 st.markdown("---")
-                st.success(f"### 🎯 Empfohlene Säulen für {antibody_subtype}")
+                st.success(f"### 🎯 Recommended columns for {antibody_subtype}")
                 
                 columns = COLUMN_DATABASE["Affinity"]["Antibody"]["subtypes"][antibody_subtype]
                 
                 for idx, col in enumerate(columns, 1):
-                    with st.expander(f"**Option {idx}: {col['name']}** - Bindung: {col['binding']}", expanded=True):
-                        st.markdown(f"**Bindungsstärke:** {col['binding']}")
+                    with st.expander(f"**Option {idx}: {col['name']}** - Binding: {col['binding']}", expanded=True):
+                        st.markdown(f"**Binding strength:** {col['binding']}")
                         st.markdown(f"**Features:** {col['features']}")
                         st.markdown(f"**💡 Best for:** {col['best_for']}")
                         
-                        # Visuelle Warnung bei schlechter Bindung
-                        if "schwach" in col['binding'].lower() or "keine" in col['binding'].lower():
-                            st.warning("⚠️ Vorsicht: Schwache/keine Bindung!")
-                        elif "sehr stark" in col['binding'].lower():
-                            st.success("✅ Sehr gute Bindung!")
+                        # Visual warning for poor binding
+                        if "weak" in col['binding'].lower() or "none" in col['binding'].lower():
+                            st.warning("⚠️ Caution: Weak/no binding!")
+                        elif "very strong" in col['binding'].lower():
+                            st.success("✅ Very good binding!")
         
-        # Alle anderen Tags
+        # All other tags
         else:
-            st.success(f"### 🎯 Empfohlene Säulen für {tag_type}")
+            st.success(f"### 🎯 Recommended columns for {tag_type}")
             
             if tag_type in COLUMN_DATABASE["Affinity"]:
                 columns = COLUMN_DATABASE["Affinity"][tag_type]["columns"]
@@ -360,23 +360,23 @@ if chrom_type == "Affinity":
 
 elif chrom_type == "Size Exclusion":
     st.markdown("---")
-    st.success("### 🎯 Verfügbare SEC-Säulen")
+    st.success("### 🎯 Available SEC columns")
     
-    st.info("**Tipp:** Wähle basierend auf der erwarteten Größe deines Proteins/Komplexes")
+    st.info("**Tip:** Choose based on the expected size of your protein/complex")
     
     columns = COLUMN_DATABASE["Size Exclusion"]["columns"]
     
     for idx, col in enumerate(columns, 1):
-        with st.expander(f"**{col['name']}** - Trennbereich: {col['separation_range']}", expanded=False):
-            st.markdown(f"**Trennbereich:** {col['separation_range']}")
+        with st.expander(f"**{col['name']}** - Separation range: {col['separation_range']}", expanded=False):
+            st.markdown(f"**Separation range:** {col['separation_range']}")
             st.markdown(f"**💡 Best for:** {col['best_for']}")
 
 # Footer
 st.markdown("---")
 st.markdown("""
 <div style='text-align: center; color: #666; padding: 20px;'>
-    <p>💡 <b>Tipp:</b> Dieses Tool basiert auf Standard-Empfehlungen. Bei speziellen Anforderungen 
-    immer zusätzlich die Herstellerangaben konsultieren!</p>
-    <p style='font-size: 0.8em;'>Entwickelt für euer Labor 🧬</p>
+    <p>💡 <b>Tip:</b> This tool is based on standard recommendations. Always consult 
+    manufacturer specifications for specific requirements!</p>
+    <p style='font-size: 0.8em;'>Developed for your lab 🧬</p>
 </div>
 """, unsafe_allow_html=True)
