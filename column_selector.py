@@ -28,16 +28,10 @@ COLUMN_DATABASE = {
         "GSTag": {
             "columns": [
                 {
-                    "name": "GSTrap HP (GE/Cytiva)",
-                    "binding_capacity": "10 mg GST/mL",
-                    "features": "Glutathione Sepharose 4B, standard for GST-fusion",
-                    "best_for": "Standard GST-fusion proteins"
-                },
-                {
-                    "name": "GST SpinTrap (GE/Cytiva)",
-                    "binding_capacity": "10 mg/mL",
-                    "features": "Spin format for small volumes",
-                    "best_for": "Fast purification of small amounts, no FPLC needed"
+                    "name": "GSTrap HP (Cytiva, 17528201)",
+                    "binding_capacity": "~10 mg/mL",
+                    "features": "One-step purifications of glutathione S-Transferase (GST) tagged proteins, Mild elution conditions",
+                    "best_for": "GST-fusion Proteins, mild elution preserves protein antigenicity and function"
                 }
             ]
         },
