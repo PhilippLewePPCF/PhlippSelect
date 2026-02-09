@@ -54,14 +54,14 @@ COLUMN_DATABASE = {
         "FLAG-Tag": {
             "columns": [
                 {
-                    "name": "Anti-FLAG M2 Affinity Gel (Sigma)",
-                    "binding_capacity": ">600 μg/mL",
+                    "name": "Anti-FLAG M2 Affinity Gel (Sigma, A2220)",
+                    "binding_capacity": "~0.6 mg/mL",
                     "features": "Monoclonal anti-FLAG antibody, mild elution with FLAG peptide",
-                    "best_for": "Standard FLAG-Tag purification"
+                    "best_for": "People with money, Standard FLAG-Tag purification"
                 },
                 {
-                    "name": "Anti-FLAG M1 Agarose (Sigma)",
-                    "binding_capacity": "~400 μg/mL",
+                    "name": "Anti-FLAG M1 Affinity Gel (Sigma, A4596)",
+                    "binding_capacity": "~0.6 mg/mL",
                     "features": "Ca2+-dependent binding, EDTA elution possible",
                     "best_for": "When peptide elution should be avoided"
                 }
