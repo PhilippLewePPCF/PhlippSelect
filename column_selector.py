@@ -285,9 +285,9 @@ st.set_page_config(page_title="PhlippSelect", page_icon="🧪", layout="wide")
 # Custom CSS for styling
 st.markdown("""
 <style>
-    /* Main background color with 8% opacity */
+    /* Main background color with 50% opacity */
     .stApp {
-        background-color: rgba(227, 229, 242, 0.08);
+        background-color: rgba(227, 229, 242, 0.5);
     }
     
     /* Style for selectbox */
