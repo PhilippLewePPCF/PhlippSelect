@@ -286,9 +286,24 @@ COLUMN_DATABASE = {
 }
 
 # Streamlit App
-st.set_page_config(page_title="Chromatography Column Selector", page_icon="🧪", layout="wide")
+st.set_page_config(page_title="PhlippSelect", page_icon="🧪", layout="wide")
 
-st.title("🧪 Chromatography Column Selector")
+# Custom CSS for styling
+st.markdown("""
+<style>
+    /* Main background color */
+    .stApp {
+        background-color: rgb(227, 229, 242);
+    }
+    
+    /* Style for selectbox */
+    div[data-baseweb="select"] > div {
+        background-color: rgb(170, 156, 143);
+    }
+</style>
+""", unsafe_allow_html=True)
+
+st.title("🧪 PhlippSelect")
 st.markdown("### A tool for optimal column selection in your lab")
 
 # Session State initialisieren
