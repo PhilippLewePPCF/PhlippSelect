@@ -6,28 +6,22 @@ COLUMN_DATABASE = {
         "HisTag": {
             "columns": [
                 {
-                    "name": "HisTrap HP (GE/Cytiva)",
-                    "binding_capacity": "40 mg/mL",
-                    "features": "Standard for most His-Tag proteins, Ni-Sepharose High Performance",
+                    "name": "HisTrap HP (Cytiva, 17524801)",
+                    "binding_capacity": "~40 mg/mL",
+                    "features": "Ni-Sepharose High Performance, Standard for most His-Tag proteins",
                     "best_for": "Routine purifications, good balance between purity and capacity"
                 },
                 {
-                    "name": "HisTrap FF (GE/Cytiva)",
-                    "binding_capacity": "40 mg/mL",
-                    "features": "Fast Flow, larger particles for faster flow rates",
-                    "best_for": "Large volumes, less pressure-sensitive systems"
+                    "name": "PureCube Ni-INDIGO (Cube-Biotech, 75306)",
+                    "binding_capacity": "~80 mg/mL",
+                    "features": "6% highly cross-linked agarose, tolerates EDTA and DTT to 20mM",
+                    "best_for": "Routine purifications, proteins where high EDTA and DTT amounts are needed"
                 },
                 {
-                    "name": "TALON Crude (Takara)",
-                    "binding_capacity": "10-15 mg/mL",
-                    "features": "Co2+ instead of Ni2+, lower non-specific binding",
-                    "best_for": "Crude extracts with many contaminating proteins"
-                },
-                {
-                    "name": "Ni-NTA Superflow (Qiagen)",
-                    "binding_capacity": "50 mg/mL",
-                    "features": "Very high capacity, NTA chelation",
-                    "best_for": "Maximum yield with limited sample material"
+                    "name": "HiTrap TALON Crude (Cytiva, 29048565)",
+                    "binding_capacity": "~20 mg/mL",
+                    "features": "Loaded with Cobalt(II) instead of Nickel, Crude technically means that no pre-clearing of the lysate is needed",
+                    "best_for": "Weak nickel binding proteins"
                 }
             ]
         },
@@ -291,14 +285,14 @@ st.set_page_config(page_title="PhlippSelect", page_icon="🧪", layout="wide")
 # Custom CSS for styling
 st.markdown("""
 <style>
-    /* Main background color */
+    /* Main background color with 50% opacity */
     .stApp {
-        background-color: rgb(227, 229, 242);
+        background-color: rgba(0, 73, 146, 0.5);
     }
     
     /* Style for selectbox */
     div[data-baseweb="select"] > div {
-        background-color: rgb(170, 156, 143);
+        background-color: rgb(230, 231, 232);
     }
 </style>
 """, unsafe_allow_html=True)
