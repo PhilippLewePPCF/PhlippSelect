@@ -35,35 +35,19 @@ COLUMN_DATABASE = {
                 }
             ]
         },
-        "Strep-Tag": {
+        "Strep-Tag / Strep-Tag II": {
             "columns": [
                 {
-                    "name": "StrepTrap HP (GE/Cytiva)",
-                    "binding_capacity": "600 μg/mL",
-                    "features": "Strep-Tactin Sepharose, mild elution",
-                    "best_for": "Standard Strep-Tag (WSHPQFEK)"
+                    "name": "Strep-Tactin® 4Flow® high capacity (IBA, 2-1257-001)",
+                    "binding_capacity": "~20 mg/mL",
+                    "features": "Elution with 2.5mM d-Desthiobiotin, binding of Biotin possible - therefore use biotin blocking if necessary",
+                    "best_for": "Purification of Strep-tag®II and Twin-Strep-tag® fusion proteins"
                 },
                 {
-                    "name": "Strep-Tactin XT 4Flow (IBA)",
-                    "binding_capacity": "2-3 mg/mL",
-                    "features": "Higher capacity, optimized for Twin-Strep-Tag",
-                    "best_for": "Twin-Strep-Tag, higher yields"
-                }
-            ]
-        },
-        "Strep-Tag II": {
-            "columns": [
-                {
-                    "name": "Strep-Tactin XT (IBA)",
-                    "binding_capacity": "2-3 mg/mL",
-                    "features": "Optimized for Strep-Tag II (WSHPQFEK), mild elution with biotin",
-                    "best_for": "Standard for Strep-Tag II, very gentle conditions"
-                },
-                {
-                    "name": "MagStrep Type3 XT (IBA)",
-                    "binding_capacity": "~1 mg/mL",
-                    "features": "Magnetic beads, no column run needed",
-                    "best_for": "Small volumes, high-throughput screening"
+                    "name": "Strep-Tactin®XT 4Flow® (IBA, 2-5023-001)",
+                    "binding_capacity": "~11 mg/mL",
+                    "features": "Outstanding target purity (>95%) and high binding affinity, best for low expressing proteins, elution with 50mM Biotin",
+                    "best_for": "Purification of Strep-tag®II and Twin-Strep-tag® fusion proteins"
                 }
             ]
         },
@@ -325,7 +309,7 @@ if chrom_type == "Affinity":
     # Tag-Auswahl
     tag_type = st.selectbox(
         "**Step 2: Choose your affinity tag**",
-        ["--- Please select ---", "HisTag", "GSTag", "Strep-Tag", "Strep-Tag II", 
+        ["--- Please select ---", "HisTag", "GSTag", "Strep-Tag / Strep-Tag II", 
          "FLAG-Tag", "MYC-Tag", "Antibody"],
         key="tag_type"
     )
