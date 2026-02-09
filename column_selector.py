@@ -70,16 +70,10 @@ COLUMN_DATABASE = {
         "MYC-Tag": {
             "columns": [
                 {
-                    "name": "c-Myc Agarose (Thermo/Pierce)",
-                    "binding_capacity": "~200 μg/mL",
-                    "features": "Anti-c-Myc antibody coupled",
-                    "best_for": "Standard c-Myc (EQKLISEEDL) purification"
-                },
-                {
-                    "name": "c-Myc Magnetic Beads (Thermo)",
-                    "binding_capacity": "Variable",
-                    "features": "Magnetic beads for fast isolation",
-                    "best_for": "Small volumes, Co-IP experiments"
+                    "name": "Anti-c-Myc Agarose (Thermo Fisher/Pierce™, 20168)",
+                    "binding_capacity": "nmol range/mL",
+                    "features": "Anti-c-Myc antibody coupled to agarose",
+                    "best_for": "People with money, Standard c-Myc (EQKLISEEDL) purification"
                 }
             ]
         },
