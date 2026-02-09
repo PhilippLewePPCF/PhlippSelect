@@ -285,14 +285,27 @@ st.set_page_config(page_title="PhlippSelect", page_icon="🧪", layout="wide")
 # Custom CSS for styling
 st.markdown("""
 <style>
-    /* Main background color with 50% opacity */
+    /* Main background color with 8% opacity */
     .stApp {
-        background-color: rgba(0, 73, 146, 0.5);
+        background-color: rgba(227, 229, 242, 0.08);
     }
     
     /* Style for selectbox */
     div[data-baseweb="select"] > div {
         background-color: rgb(230, 231, 232);
+    }
+    
+    /* Style for expander boxes (column information) */
+    .streamlit-expanderHeader {
+        background-color: rgb(233, 228, 225) !important;
+    }
+    
+    .streamlit-expanderContent {
+        background-color: rgb(233, 228, 225) !important;
+    }
+    
+    details {
+        background-color: rgb(233, 228, 225) !important;
     }
 </style>
 """, unsafe_allow_html=True)
@@ -356,8 +369,6 @@ if chrom_type == "Affinity":
         
         # All other tags
         else:
-            st.success(f"### 🎯 Recommended columns for {tag_type}")
-            
             if tag_type in COLUMN_DATABASE["Affinity"]:
                 columns = COLUMN_DATABASE["Affinity"][tag_type]["columns"]
                 
