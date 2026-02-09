@@ -79,7 +79,10 @@ COLUMN_DATABASE = {
         },
         "Antibody": {
             "subtypes": {
-                "IgG1 (human)": [
+                "human IgA": [],
+                "human IgD": [],
+                "human IgE": [],
+                "human IgG1": [
                     {
                         "name": "Protein A HP (GE/Cytiva)",
                         "binding": "Very strong",
@@ -93,7 +96,7 @@ COLUMN_DATABASE = {
                         "best_for": "Alternative to Protein A"
                     }
                 ],
-                "IgG2 (human)": [
+                "human IgG2": [
                     {
                         "name": "Protein A HP (GE/Cytiva)",
                         "binding": "Medium-strong",
@@ -113,7 +116,7 @@ COLUMN_DATABASE = {
                         "best_for": "When IgG subtype is mixed or unknown"
                     }
                 ],
-                "IgG3 (human)": [
+                "human IgG3": [
                     {
                         "name": "Protein G HP (GE/Cytiva)",
                         "binding": "Very strong",
@@ -127,7 +130,7 @@ COLUMN_DATABASE = {
                         "best_for": "Avoid for IgG3"
                     }
                 ],
-                "IgG4 (human)": [
+                "human IgG4": [
                     {
                         "name": "Protein A HP (GE/Cytiva)",
                         "binding": "Strong",
@@ -141,6 +144,15 @@ COLUMN_DATABASE = {
                         "best_for": "Alternative to Protein A"
                     }
                 ],
+                "human IgM": [],
+                "Cow": [],
+                "Dog": [],
+                "Goat": [],
+                "Guinea Pig IgG1": [],
+                "Guinea Pig IgG2": [],
+                "Hamster": [],
+                "Horse": [],
+                "Monkey (rhesus)": [],
                 "Mouse IgG1": [
                     {
                         "name": "Protein G HP (GE/Cytiva)",
@@ -203,20 +215,13 @@ COLUMN_DATABASE = {
                         "best_for": "BEST choice for Mouse IgG3"
                     }
                 ],
-                "Rat IgG": [
-                    {
-                        "name": "Protein G HP (GE/Cytiva)",
-                        "binding": "Strong",
-                        "features": "Good binding for most Rat IgG",
-                        "best_for": "Standard choice"
-                    },
-                    {
-                        "name": "Protein A HP (GE/Cytiva)",
-                        "binding": "Weak-medium",
-                        "features": "Subtype-dependent",
-                        "best_for": "Not first choice"
-                    }
-                ]
+                "Mouse IgM": [],
+                "Rabbit": [],
+                "Rat IgG1": [],
+                "Rat IgG2a": [],
+                "Rat IgG2b": [],
+                "Rat IgG3": [],
+                "Sheep": []
             }
         }
     },
